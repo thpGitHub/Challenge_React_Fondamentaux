@@ -1,4 +1,4 @@
-import { Children, useContext } from "react";
+import { useContext } from "react";
 import "./DivComponent.css";
 import { DivContext } from "../Context/DivContext.js";
 import { IconContext } from "react-icons";

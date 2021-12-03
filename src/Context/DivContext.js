@@ -7,16 +7,10 @@ const DivContextProvider = (props) => {
 
   const changeDivOrderLeft = (indexDiv) => {
     const divsOrders2 = [...divsOrders];
-    console.log("divsOrders2 = ", divsOrders2);
-
     const findIndexBefore = divsOrders2.indexOf(divsOrders2[indexDiv] - 1);
-    divsOrders2[findIndexBefore] += 1;
-    console.log("FindiNDEXBefore", findIndexBefore);
-    // divsOrders2[divsOrders2.indexOf(indexDiv-1)]+=1;
-    divsOrders2[indexDiv] -= 1;
-    console.log("indexDiv = ", indexDiv);
-    console.log("divsOrders2 = ", divsOrders2);
 
+    divsOrders2[findIndexBefore] += 1;
+    divsOrders2[indexDiv] -= 1;
     setDivsOrders(divsOrders2);
   };
 
