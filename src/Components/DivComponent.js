@@ -8,7 +8,7 @@ import {
 } from "react-icons/bs";
 
 export default function DivComponent({ children, order, indexDiv }) {
-  const { divsOrders, changeDivOrderLeft, changeDivOrderRight } =
+  const { changeDivOrderLeft, changeDivOrderRight } =
     useContext(DivContext);
 
   return (
