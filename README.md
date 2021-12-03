@@ -4,7 +4,7 @@ Petit challenge sur quelques fondamentaux de React.
 
 Utilisations des Hooks `useState` et `useContext`.
 
-Teste de la bibliothèque `React Icons` qui utilise l'API de context de react.
+Teste de la bibliothèque `React Icons :`  <https://react-icons.github.io/react-icons/> qui utilise l'API de context de react.
 
 Gestion de l'affichage avec FlexBox
 
